@@ -1,18 +1,72 @@
 {
-  "display": {
+    "display": {
       "icon": {
-          "item": "minecraft:phantom_membrane"
+        "id": "minecraft:phantom_membrane"
       },
-      "title": "Bat Membrane",
-      "description": "Disables phantoms and lets bat drop membrane instead",
+      "title": "Bat Membrane                                                                                    ",
+      "description": [
+        "",
+        {
+            "text": "Disables phantoms + you will now get membrane from bats\n",
+            "color": "white"
+        },
+        {
+            "text": "\n",
+            "color": "yellow"
+        },
+        {
+            "text": "/trigger",
+            "color": "yellow"
+        },
+        {
+            "text": " help.batmembrane\n",
+            "color": "yellow"
+        },
+        {
+            "text": "for help\n",
+            "color": "white"
+        },
+        {
+            "text": "\n",
+            "color": "green"
+        },
+        {
+            "text": "Datapack version: ",
+            "color": "dark_green"
+        },
+        {
+            "text": "v.2.1.0",
+            "color": "green"
+        },
+        {
+            "text": "\n",
+            "color": "green"
+        },
+        {
+            "text": "Game version: ",
+            "color": "dark_green"
+        },
+        {
+            "text": "1.20.5-6",
+            "color": "green"
+        },
+        {
+            "text": "\n",
+            "color": "green"
+        },
+        {
+            "text": " modrinth.com/datapack/bat-membrane",
+            "color": "dark_purple"
+        }
+    ],
       "frame": "task",
       "show_toast": false,
       "announce_to_chat": false
-  },
-  "parent": "jodek:root",
-  "criteria": {
+    },
+    "parent": "jodek:mobs",
+    "criteria": {
       "tick": {
-          "trigger": "minecraft:tick"
+        "trigger": "minecraft:tick"
       }
+    }
   }
-}
