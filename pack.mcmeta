@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 26,
-    "description": "Disables phantoms and lets bat drop phantom_membrane"
+    "pack_format": 48,
+    "description": "Disables phantoms and lets bat drop phantom_membrane - [1.21] - v.2.1.0"
   }
 }
