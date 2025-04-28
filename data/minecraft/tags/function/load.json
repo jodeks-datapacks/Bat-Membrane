@@ -1,0 +1,6 @@
+{
+  "values": [
+  "batmembrane:app/setup",
+  "batmembrane:app/load_message"
+]
+}
