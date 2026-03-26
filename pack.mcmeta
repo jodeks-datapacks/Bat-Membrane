@@ -4,12 +4,12 @@
     "min_format": 80,
     "max_format": 999,
     "supported_formats": {
-       "min_inclusive": 80,
-       "max_inclusive": 999
+      "min_inclusive": 80,
+      "max_inclusive": 999
     },
     "description": [
       {
-        "text": "\"Bat Membrane\" (batmembrane)"
+        "text": "\"Bat Membrane\" (bat_membrane)"
       },
       "\n",
       {
@@ -21,7 +21,7 @@
         "text": "Version "
       },
       {
-        "text": "3.1.2",
+        "text": "3.1.3",
         "color": "#55ff55"
       },
       {

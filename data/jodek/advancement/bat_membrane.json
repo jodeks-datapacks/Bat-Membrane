@@ -1,56 +1,73 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:phantom_membrane"
-        },
-        "title": "Bat Membrane              ",
-        "description": [
-            "",
-            {
-                "text": "Disables phantoms + you will get membrane from bats\n",
-                "color": "white"
-            },
-            {
-                "text": "\n",
-                "color": "yellow"
-            },
-            {
-                "text": "Datapack version: ",
-                "color": "dark_green"
-            },
-            {
-                "text": "v3.1.2",
-                "color": "green"
-            },
-            {
-                "text": "\n",
-                "color": "green"
-            },
-            {
-                "text": "Game version: ",
-                "color": "dark_green"
-            },
-            {
-                "text": "1.21.6+",
-                "color": "green"
-            },
-            {
-                "text": "\n",
-                "color": "green"
-            },
-            {
-                "text": "modrinth.com/datapack/bat-membrane",
-                "color": "dark_purple"
-            }
-        ],
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
     },
-    "parent": "jodek:mobs",
-    "criteria": {
-        "tick": {
-            "trigger": "minecraft:tick"
-        }
+    "title": "Bat Membrane              ",
+    "description": [
+      "",
+      {
+        "translate": "bat_membrane.description",
+        "fallback": "Disables phantoms + you will get membrane from bats",
+        "color": "white"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "jodek.datapack_version",
+        "fallback": "Datapack version: ",
+        "color": "dark_green"
+      },
+      {
+        "text": "v3.1.3",
+        "color": "green"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "translate": "jodek.game_version",
+        "fallback": "Game version: ",
+        "color": "dark_green"
+      },
+      {
+        "text": "1.21.6+",
+        "color": "green"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "text": "modrinth.com/datapack/bat-membrane",
+        "color": "dark_purple"
+      }
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "jodek:mobs",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&bat_membrane_advancements"
+              },
+              "score": "jodek.config"
+            },
+            "range": 1
+          }
+        ]
+      }
     }
+  }
 }
