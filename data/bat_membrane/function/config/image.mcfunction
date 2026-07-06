@@ -16,7 +16,7 @@ function bat_membrane:image/set_image_data {\
     "Bat Membrane",\
     {translate: "bat_membrane.description", fallback: "Disables phantoms and lets bat drop phantom membrane", color: "#aaaaaa"},\
     "",\
-    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v3.1.4", color: "#54fc54"}],\
+    [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v3.1.5", color: "#54fc54"}],\
     "",\
     [{translate: "jodek.by", fallback: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
     {text: "modrinth.com/datapack/bat-membrane", color: "#a800a8"},\
