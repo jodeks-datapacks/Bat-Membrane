@@ -1,21 +1,10 @@
 {
   "pack": {
-    "pack_format": 80,
-    "min_format": 80,
-    "max_format": 999,
-    "supported_formats": {
-      "min_inclusive": 80,
-      "max_inclusive": 999
-    },
+    "min_format": [121, 0],
+    "max_format": [999, 0],
     "description": [
       {
         "text": "\"Bat Membrane\" (bat_membrane)"
-      },
-      "\n",
-      {
-        "translate": "bat_membrane.description",
-        "fallback": "Disables phantoms and lets bat drop phantom membrane",
-        "color": "#aaaaaa"
       },
       "\n\n",
       {
@@ -26,7 +15,7 @@
         "text": " "
       },
       {
-        "text": "3.1.5",
+        "text": "3.2.0",
         "color": "#55ff55"
       },
 
@@ -47,22 +36,9 @@
   "overlays": {
     "entries": [
       {
-        "directory": "overlay-80",
-        "min_format": 80,
-        "max_format": 999,
-        "formats": { "min_inclusive": 80, "max_inclusive": 999 }
-      },
-      {
-        "directory": "overlay-94",
-        "min_format": 94,
-        "max_format": 999,
-        "formats": { "min_inclusive": 94, "max_inclusive": 999 }
-      },
-      {
-        "directory": "overlay-107.1",
-        "min_format": 107,
-        "max_format": 999,
-        "formats": { "min_inclusive": 107, "max_inclusive": 999 }
+        "directory": "overlay-121",
+        "min_format": 121,
+        "max_format": 999
       }
     ]
   }

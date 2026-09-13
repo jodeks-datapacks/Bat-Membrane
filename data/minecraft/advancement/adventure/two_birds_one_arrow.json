@@ -12,7 +12,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "minecraft:bat"
+                "entity_type": "minecraft:bat"
               }
             }
           ],
@@ -21,7 +21,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "minecraft:bat"
+                "entity_type": "minecraft:bat"
               }
             }
           ]

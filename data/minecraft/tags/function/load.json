@@ -1,6 +1,5 @@
 {
   "values": [
-    "bat_membrane:app/setup",
-    "bat_membrane:app/load_message"
+    "bat_membrane:app/setup"
   ]
 }
