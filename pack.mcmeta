@@ -11,12 +11,6 @@
       {
         "text": "\"Bat Membrane\" (bat_membrane)"
       },
-      "\n",
-      {
-        "translate": "bat_membrane.description",
-        "fallback": "Disables phantoms and lets bat drop phantom membrane",
-        "color": "#aaaaaa"
-      },
       "\n\n",
       {
         "translate": "jodek.version",
@@ -26,7 +20,7 @@
         "text": " "
       },
       {
-        "text": "3.1.5",
+        "text": "3.2.0",
         "color": "#55ff55"
       },
 
